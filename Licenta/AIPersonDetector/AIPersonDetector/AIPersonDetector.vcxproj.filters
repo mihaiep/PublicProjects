@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{c024862e-7f73-4ef7-9d66-e780512c6e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functional">
+      <UniqueIdentifier>{60baa7a1-d124-4b30-8e34-13e8c52deedb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{2022c3ed-7775-4417-87b5-928e5a284097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net Controll">
+      <UniqueIdentifier>{54ac8594-c136-4dd4-94e7-82c5af85d755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net Controll\dataFlow">
+      <UniqueIdentifier>{29f465ea-729c-4626-a292-0523a4c66cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net Controll\dataFetcher">
+      <UniqueIdentifier>{4165451d-6acc-49a4-9b8f-92d70e1a1aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{8debf8fe-f6a6-425a-95e3-7ef8e36c6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Neuron">
+      <UniqueIdentifier>{3be8a3a2-b3bc-4e52-930b-ee3226e89e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\neuralNetwork">
+      <UniqueIdentifier>{ca166215-f178-4860-98fe-f8bd09ae2f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main Controll">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Net Controll\dataAugm">
+      <UniqueIdentifier>{84907b07-15a2-47aa-aee6-738097c9703d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Network\Neuron</Filter>
+    </ClCompile>
+    <ClCompile Include="threadFunc.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPersonDetector.cpp">
+      <Filter>Source Files\Main Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="dataFlow.cpp">
+      <Filter>Net Controll\dataFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="neuralNetwork.cpp">
+      <Filter>Network\neuralNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="dataAugm.cpp">
+      <Filter>Net Controll\dataAugm</Filter>
+    </ClCompile>
+    <ClCompile Include="dataFetcher.cpp">
+      <Filter>Net Controll\dataFetcher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Neuron.h">
+      <Filter>Network\Neuron</Filter>
+    </ClInclude>
+    <ClInclude Include="threadFunc.h">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPersonDetector.h">
+      <Filter>Source Files\Main Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataFlow.h">
+      <Filter>Net Controll\dataFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="neuralNetwork.h">
+      <Filter>Network\neuralNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="dataAugm.h">
+      <Filter>Net Controll\dataAugm</Filter>
+    </ClInclude>
+    <ClInclude Include="dataFetcher.h">
+      <Filter>Net Controll\dataFetcher</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="StructureCNN.txt">
+      <Filter>Data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
