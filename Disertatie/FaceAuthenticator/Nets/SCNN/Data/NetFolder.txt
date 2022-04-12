@@ -1,0 +1,1 @@
+Model8_Adam_binary-crossentropy_78,3475_92,5638_025_160-015557
