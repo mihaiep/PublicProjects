@@ -1,0 +1,47 @@
+Rezolutie: 160 x 90
+    - PC
+        - CPU:
+            - SCNN:
+				MTCNN Mean Runtime: 0.15147664546966552
+				SCNN Mean Runtime: 0.041074544191360474
+            - SCNN_LW
+				MTCNN Mean Runtime: 0.15361928224563598
+				SCNN Mean Runtime: 0.04222326636314392
+        -GPU:
+            - SCNN:
+				MTCNN Mean Runtime: 0.15811917304992676
+				SCNN Mean Runtime: 0.043239654898643495
+            - SCNN_LW
+				MTCNN Mean Runtime: 0.1598392415046692
+				SCNN Mean Runtime: 0.0437855190038681
+    - Raspberry:
+        - SCNN:
+				MTCNN Mean Runtime: 1.0442654132843017
+				SCNN Mean Runtime: 0.3358935683965683
+        - SCNN_LW
+				MTCNN Mean Runtime: 1.0401339721679688
+				SCNN Mean Runtime: 0.3184214818477631
+
+Rezolutie: 480 x 270
+    - PC
+        - CPU:
+            - SCNN:
+				MTCNN Mean Runtime: 0.1578689455986023
+				SCNN Mean Runtime: 0.04266277134418488
+            - SCNN_LW
+				MTCNN Mean Runtime: 0.15548887014389037
+				SCNN Mean Runtime: 0.04259808361530304
+        -GPU:
+            - SCNN:
+				MTCNN Mean Runtime: 0.15440659284591673
+				SCNN Mean Runtime: 0.04185712039470672
+            - SCNN_LW
+				MTCNN Mean Runtime: 0.16172342300415038
+				SCNN Mean Runtime: 0.0434251195192337
+    - Raspberry:
+        - SCNN:
+				MTCNN Mean Runtime: 1.0991758680343628
+				SCNN Mean Runtime: 0.3386199963092804
+        - SCNN_LW
+				MTCNN Mean Runtime: 1.0715682244300841
+				SCNN Mean Runtime: 0.3184923702478409
